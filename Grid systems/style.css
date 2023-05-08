@@ -1,0 +1,137 @@
+/*
+.fast-img{
+    width: 70%;
+    /* height:10px; */
+
+/* .fast-img{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grip-gap:20px;
+margin: 0 auto;
+height: 20px;
+width: 800px;
+}
+.fast-img{
+    width: 20%;
+
+}
+     
+/*
+ .fast-img{
+   background-image: url("fast-img.jpg");
+}
+*/
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.bt-text{
+    color: white;
+}
+.title{
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 1em;
+    
+    
+}
+body {
+    width: 100wh;
+    background-color:cornflowerblue;
+}
+
+.grid-ctn {
+    display: grid;
+    grid-template-columns: 4fr 4fr ;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 2em;
+    
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+    margin: 1em;
+    width: 25em;
+    height: 20em;
+    overflow: hidden;
+    
+}
+
+.box1 img {
+    height: 100%;
+}
+.box2 p{
+    font-size: 20px;
+    color: black;
+}
+
+.box2 img{
+    width: 100%;
+}
+.box3 img{
+    height: 100%;
+    
+}
+.box4 img{
+    height: 100%;
+    
+}
+.box5 img{
+    height: 100%;
+}
+.box6 img{
+    width: 100%;
+    height: 100%;
+}
+.box7 img{
+    height: 100%;
+}
+.box8 img{
+
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 768px){       
+    .grid-ctn{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 5px;
+    }
+}
+@media (max-width: 1024px) {
+    .grid-ctn{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 4px;
+    }
+}
+
+@media (max-width: 412px) {
+    .grid-ctn{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* grid-template-columns: 1fr 1fr; */
+        margin: auto 1em;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+        margin: 1em;
+        width: 15em;
+        height: 10em;
+        overflow: hidden;
+        
+    }
+}
